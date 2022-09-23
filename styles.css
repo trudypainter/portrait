@@ -1,0 +1,59 @@
+body {
+  overflow: hidden;
+  cursor: none;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  cursor: none;
+}
+
+iframe {
+  background-color: white;
+  border: 14px solid black;
+
+  zoom: 0.5;
+  -moz-transform: scale(0.5);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.5);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+
+  width: 2800px;
+  height: 2800px;
+}
+
+.iframe-container {
+  position: fixed;
+  top: 100px;
+  left: calc(50vw - 400px);
+
+  font-size: xx-large;
+}
+
+#important {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+}
+#unimportant {
+  position: absolute;
+  top: -50px;
+  left: 660px;
+}
+#professional {
+  position: absolute;
+  top: 0px;
+  left: -50px;
+}
+#personal {
+  position: absolute;
+  top: 660px;
+  left: -50px;
+}
