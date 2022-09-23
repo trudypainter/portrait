@@ -32,7 +32,7 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 
 var largeCircle = new Path.Circle({
   center: [676, 433],
-  radius: 200,
+  radius: 160,
   fillColor: "#00ff00",
 });
 circlePaths.push(largeCircle);
